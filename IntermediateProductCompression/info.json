@@ -1,10 +1,10 @@
 {
     "name": "IntermediateProductCompression",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "title": "Intermediate Product Compression",
     "author": "Sharkbyte",
     "contact": "",
-    "homepage": "",
+    "homepage": "https://github.com/davidjcastner/factorio-compression-mod",
     "factorio_version": "0.16",
     "dependencies": ["base >= 0.16"],
     "description": "This mod allow intermediate products to be compressed"
