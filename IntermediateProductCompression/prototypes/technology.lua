@@ -18,7 +18,7 @@ data:extend({
             { type = "unlock-recipe", recipe = "compressed-uranium-ore" },
             { type = "unlock-recipe", recipe = "decompressed-uranium-ore" },
         },
-        prerequisites = { "automation" },
+        prerequisites = { "automation-2" },
         unit = {
             count = 50,
             ingredients = {
@@ -43,7 +43,7 @@ data:extend({
             { type = "unlock-recipe", recipe = "compressed-steel-plate" },
             { type = "unlock-recipe", recipe = "decompressed-steel-plate" },
         },
-        prerequisites = { "automation", "steel-processing" },
+        prerequisites = { "automation-2", "steel-processing" },
         unit = {
             count = 50,
             ingredients = {
@@ -70,7 +70,7 @@ data:extend({
             { type = "unlock-recipe", recipe = "compressed-electronic-circuit" },
             { type = "unlock-recipe", recipe = "decompressed-electronic-circuit" },
         },
-        prerequisites = { "item-compression-technology", "automation-2" },
+        prerequisites = { "item-compression-technology" },
         unit = {
             count = 100,
             ingredients = {

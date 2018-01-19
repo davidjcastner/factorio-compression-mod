@@ -19,8 +19,8 @@ local ADVANCED_MATERIAL_COMPRESSION = 8 -- scalar
 local ADVANCED_MATERIAL_CRAFTING_TIME = 3.5 -- engery cost
 
 -- water: water
-local WATER_INGREDIENT_AMOUNT = 120 -- scalar
-local WATER_RESULT_AMOUNT = 100 -- scalar
+local WATER_INGREDIENT_AMOUNT = 240 -- scalar
+local WATER_RESULT_AMOUNT = 200 -- scalar
 local WATER_CRAFTING_TIME = 0.5 -- engery cost
 
 -- coolant: fluid-coolant
@@ -40,6 +40,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-stone-brick",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"stone-brick", BASIC_MATERIAL_COMPRESSION}},
@@ -50,6 +51,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-stone-brick",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-stone-brick", 1}},
@@ -63,6 +65,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-raw-wood",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = RAW_RESOURCE_CRAFTING_TIME,
         ingredients = {{"raw-wood", RAW_RESOURCE_COMPRESSION}},
@@ -73,6 +76,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-raw-wood",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = RAW_RESOURCE_CRAFTING_TIME,
         ingredients = {{"compressed-raw-wood", 1}},
@@ -86,6 +90,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-coal",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = RAW_RESOURCE_CRAFTING_TIME,
         ingredients = {{"coal", RAW_RESOURCE_COMPRESSION}},
@@ -96,6 +101,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-coal",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = RAW_RESOURCE_CRAFTING_TIME,
         ingredients = {{"compressed-coal", 1}},
@@ -109,6 +115,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-stone",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = RAW_RESOURCE_CRAFTING_TIME,
         ingredients = {{"stone", RAW_RESOURCE_COMPRESSION}},
@@ -119,6 +126,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-stone",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = RAW_RESOURCE_CRAFTING_TIME,
         ingredients = {{"compressed-stone", 1}},
@@ -132,6 +140,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-iron-ore",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = RAW_RESOURCE_CRAFTING_TIME,
         ingredients = {{"iron-ore", RAW_RESOURCE_COMPRESSION}},
@@ -142,6 +151,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-iron-ore",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = RAW_RESOURCE_CRAFTING_TIME,
         ingredients = {{"compressed-iron-ore", 1}},
@@ -155,6 +165,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-copper-ore",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = RAW_RESOURCE_CRAFTING_TIME,
         ingredients = {{"copper-ore", RAW_RESOURCE_COMPRESSION}},
@@ -165,6 +176,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-copper-ore",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = RAW_RESOURCE_CRAFTING_TIME,
         ingredients = {{"compressed-copper-ore", 1}},
@@ -178,6 +190,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-uranium-ore",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = RAW_RESOURCE_CRAFTING_TIME,
         ingredients = {{"uranium-ore", RAW_RESOURCE_COMPRESSION}},
@@ -188,6 +201,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-uranium-ore",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = RAW_RESOURCE_CRAFTING_TIME,
         ingredients = {{"compressed-uranium-ore", 1}},
@@ -201,6 +215,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-wood",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"wood", BASIC_MATERIAL_COMPRESSION}},
@@ -211,6 +226,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-wood",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-wood", 1}},
@@ -224,6 +240,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-iron-plate",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"iron-plate", BASIC_MATERIAL_COMPRESSION}},
@@ -234,6 +251,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-iron-plate",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-iron-plate", 1}},
@@ -247,6 +265,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-copper-plate",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"copper-plate", BASIC_MATERIAL_COMPRESSION}},
@@ -257,6 +276,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-copper-plate",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-copper-plate", 1}},
@@ -270,6 +290,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-steel-plate",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"steel-plate", BASIC_MATERIAL_COMPRESSION}},
@@ -280,6 +301,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-steel-plate",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-steel-plate", 1}},
@@ -293,6 +315,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-solid-fuel",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"solid-fuel", BASIC_MATERIAL_COMPRESSION}},
@@ -303,6 +326,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-solid-fuel",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-solid-fuel", 1}},
@@ -316,6 +340,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-plastic-bar",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"plastic-bar", BASIC_MATERIAL_COMPRESSION}},
@@ -326,6 +351,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-plastic-bar",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-plastic-bar", 1}},
@@ -339,6 +365,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-sulfur",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"sulfur", BASIC_MATERIAL_COMPRESSION}},
@@ -349,6 +376,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-sulfur",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-sulfur", 1}},
@@ -362,6 +390,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-battery",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"battery", BASIC_MATERIAL_COMPRESSION}},
@@ -372,6 +401,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-battery",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-battery", 1}},
@@ -385,6 +415,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-explosives",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"explosives", BASIC_MATERIAL_COMPRESSION}},
@@ -395,6 +426,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-explosives",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-explosives", 1}},
@@ -408,6 +440,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-copper-cable",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"copper-cable", BASIC_MATERIAL_COMPRESSION}},
@@ -418,6 +451,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-copper-cable",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-copper-cable", 1}},
@@ -431,6 +465,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-iron-stick",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"iron-stick", BASIC_MATERIAL_COMPRESSION}},
@@ -441,6 +476,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-iron-stick",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-iron-stick", 1}},
@@ -454,6 +490,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-iron-gear-wheel",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"iron-gear-wheel", BASIC_MATERIAL_COMPRESSION}},
@@ -464,6 +501,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-iron-gear-wheel",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-iron-gear-wheel", 1}},
@@ -477,6 +515,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-electronic-circuit",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"electronic-circuit", BASIC_MATERIAL_COMPRESSION}},
@@ -487,6 +526,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-electronic-circuit",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-electronic-circuit", 1}},
@@ -500,6 +540,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-advanced-circuit",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"advanced-circuit", BASIC_MATERIAL_COMPRESSION}},
@@ -510,6 +551,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-advanced-circuit",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-advanced-circuit", 1}},
@@ -523,6 +565,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-processing-unit",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"processing-unit", BASIC_MATERIAL_COMPRESSION}},
@@ -533,6 +576,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-processing-unit",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = BASIC_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-processing-unit", 1}},
@@ -546,6 +590,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-engine-unit",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = INTERMEDIATE_MATERIAL_CRAFTING_TIME,
         ingredients = {{"engine-unit", INTERMEDIATE_MATERIAL_COMPRESSION}},
@@ -556,6 +601,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-engine-unit",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = INTERMEDIATE_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-engine-unit", 1}},
@@ -569,6 +615,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-electric-engine-unit",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = INTERMEDIATE_MATERIAL_CRAFTING_TIME,
         ingredients = {{"electric-engine-unit", INTERMEDIATE_MATERIAL_COMPRESSION}},
@@ -579,6 +626,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-electric-engine-unit",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = INTERMEDIATE_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-electric-engine-unit", 1}},
@@ -592,6 +640,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-flying-robot-frame",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = INTERMEDIATE_MATERIAL_CRAFTING_TIME,
         ingredients = {{"flying-robot-frame", INTERMEDIATE_MATERIAL_COMPRESSION}},
@@ -602,6 +651,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-flying-robot-frame",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = INTERMEDIATE_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-flying-robot-frame", 1}},
@@ -615,6 +665,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-rocket-control-unit",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = ADVANCED_MATERIAL_CRAFTING_TIME,
         ingredients = {{"rocket-control-unit", ADVANCED_MATERIAL_COMPRESSION}},
@@ -625,6 +676,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-rocket-control-unit",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = ADVANCED_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-rocket-control-unit", 1}},
@@ -638,6 +690,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-low-density-structure",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = ADVANCED_MATERIAL_CRAFTING_TIME,
         ingredients = {{"low-density-structure", ADVANCED_MATERIAL_COMPRESSION}},
@@ -648,6 +701,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-low-density-structure",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = ADVANCED_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-low-density-structure", 1}},
@@ -661,6 +715,7 @@ data:extend({
     {
         type = "recipe",
         name = "compressed-rocket-fuel",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = ADVANCED_MATERIAL_CRAFTING_TIME,
         ingredients = {{"rocket-fuel", ADVANCED_MATERIAL_COMPRESSION}},
@@ -671,6 +726,7 @@ data:extend({
     {
         type = "recipe",
         name = "decompressed-rocket-fuel",
+        category = "advanced-crafting",
         enabled = false,
         energy_required = ADVANCED_MATERIAL_CRAFTING_TIME,
         ingredients = {{"compressed-rocket-fuel", 1}},
