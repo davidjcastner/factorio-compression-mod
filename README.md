@@ -12,8 +12,10 @@ If a developer knows how to prevent logistic robots from picking up items, pleas
 GitHub: https://github.com/davidjcastner/factorio-compression-mod
 
 ## Changelog
+
 v0.1.1
 - Increased water compression from 100 to 200 to match other fluids (indirectly increases coolant cost)
 - Fixed issue with recursive hand crafting not working
+
 v0.1.0
 - Initial Release
