@@ -19,8 +19,8 @@ local ADVANCED_MATERIAL_COMPRESSION = 8 -- scalar
 local ADVANCED_MATERIAL_CRAFTING_TIME = 3.5 -- engery cost
 
 -- water: water
-local WATER_INGREDIENT_AMOUNT = 120 -- scalar
-local WATER_RESULT_AMOUNT = 100 -- scalar
+local WATER_INGREDIENT_AMOUNT = 240 -- scalar
+local WATER_RESULT_AMOUNT = 200 -- scalar
 local WATER_CRAFTING_TIME = 0.5 -- engery cost
 
 -- coolant: fluid-coolant
