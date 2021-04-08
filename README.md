@@ -1,4 +1,4 @@
-# Intermediate Product Compression
+# [Archived] Intermediate Product Compression
 
 ![icon](https://raw.githubusercontent.com/davidjcastner/factorio-compression-mod/master/IntermediateProductCompression/graphics/technology-resource.png) ![icon](https://raw.githubusercontent.com/davidjcastner/factorio-compression-mod/master/IntermediateProductCompression/graphics/technology-item.png) ![icon](https://raw.githubusercontent.com/davidjcastner/factorio-compression-mod/master/IntermediateProductCompression/graphics/technology-fluid.png)
 
